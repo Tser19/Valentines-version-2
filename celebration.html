@@ -404,7 +404,7 @@
         }
 
         .hug-animation.show {
-            animation: hug-gif-appear 3.5s ease-out forwards;
+            animation: hug-gif-appear 5s ease-out forwards;
         }
 
         .hug-gif {
@@ -421,7 +421,7 @@
                 linear-gradient(#1a1a2e, #1a1a2e) padding-box,
                 linear-gradient(135deg, #ff69b4, #a855f7, #ffd700, #ff69b4) border-box;
             background-size: 300% 300%;
-            animation: gif-border-flow 3s linear infinite;
+            animation: gif-border-flow 5s linear infinite;
         }
 
         @keyframes gif-border-flow {
@@ -454,7 +454,7 @@
 
         /* Glowing effect when GIF is showing */
         .hug-animation.show .hug-gif {
-            animation: gif-glow 1.5s ease-in-out infinite alternate, gif-border-flow 3s linear infinite;
+            animation: gif-glow 3s ease-in-out infinite alternate, gif-border-flow 3s linear infinite;
         }
 
         @keyframes gif-glow {
@@ -1026,7 +1026,7 @@
         <!-- Interactive Buttons -->
         <div class="buttons-row">
             <button class="action-btn" onclick="handleInteraction(event, 'confetti')">🎉 More Confetti!</button>
-            <button class="action-btn secondary" onclick="handleInteraction(event, 'hug')">🤗 Send a Hug!</button>
+            <button class="action-btn secondary" onclick="handleInteraction(event, 'hug')">🤗 Send a Kiss!</button>
         </div>
 
         <!-- Love Jar Section -->
